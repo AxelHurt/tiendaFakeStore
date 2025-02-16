@@ -1,4 +1,4 @@
-import App from "./App";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -43,9 +43,9 @@ function Header() {
         <button className="text-2xl">
           <i className="bi bi-search"></i>
         </button>
-        <button className="text-2xl">
+        <Link className="text-2xl" to="/cart">
           <i className="bi bi-basket2-fill"></i>
-        </button>
+        </Link>
         <button className="text-2xl">
           <i className="bi bi-person-fill"></i>
         </button>
