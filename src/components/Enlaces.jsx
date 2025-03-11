@@ -17,6 +17,13 @@ function Enlaces() {
         >
           Carrito
         </Link>
+        <p className="text-xs">|</p>
+        <Link
+          className="transition delay-150 duration-150 hover:text-[#cf1015]"
+          to="/addproduct"
+        >
+          AñadirProducto
+        </Link>
       </ul>
     </div>
   );

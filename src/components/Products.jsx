@@ -34,11 +34,11 @@ function Products({ data, search }) {
     <>
       {
         <div className="p-6">
-          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3  gap-10 m-10 place-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-10 m-10 place-items-center">
             {filteredData.map((data) => (
               <div
                 key={data.id}
-                className="text-center box-border border rounded-md p-4 h-auto w-80 bg-gray-50"
+                className="text-center box-border border border-[#ececec] rounded-md p-4 h-auto w-80 bg-gray-50"
               >
                 <img
                   className="h-48 w-full object-contain"
